@@ -1,0 +1,23 @@
+* 
+* ==> Audit <==
+* 
+* ==> Last Start <==
+* Log file created at: 2022/12/12 14:12:07
+Running on machine: LAPTOP-ANBE9CQN
+Binary: Built with gc go1.19.2 for windows/amd64
+Log line format: [IWEF]mmdd hh:mm:ss.uuuuuu threadid file:line] msg
+I1212 14:12:07.977844   10192 out.go:296] Setting OutFile to fd 444 ...
+I1212 14:12:07.978014   10192 out.go:348] isatty.IsTerminal(444) = true
+I1212 14:12:07.978014   10192 out.go:309] Setting ErrFile to fd 444...
+I1212 14:12:07.978014   10192 out.go:348] isatty.IsTerminal(444) = true
+W1212 14:12:07.984906   10192 root.go:311] Error reading config file at C:\Users\Hp\.minikube\config\config.json: open C:\Users\Hp\.minikube\config\config.json: The system cannot find the file specified.
+I1212 14:12:07.993594   10192 out.go:303] Setting JSON to false
+I1212 14:12:08.002210   10192 start.go:116] hostinfo: {"hostname":"LAPTOP-ANBE9CQN","uptime":367,"bootTime":1670850360,"procs":274,"os":"windows","platform":"Microsoft Windows 11 Home","platformFamily":"Standalone Workstation","platformVersion":"10.0.22000 Build 22000","kernelVersion":"10.0.22000 Build 22000","kernelArch":"x86_64","virtualizationSystem":"","virtualizationRole":"","hostId":"0c6aa007-bbf5-46ca-bfc2-7587394d7b2c"}
+W1212 14:12:08.002210   10192 start.go:124] gopshost.Virtualization returned error: not implemented yet
+I1212 14:12:08.004415   10192 out.go:177] 😄  minikube v1.28.0 on Microsoft Windows 11 Home 10.0.22000 Build 22000
+I1212 14:12:08.005476   10192 notify.go:220] Checking for updates...
+I1212 14:12:08.007678   10192 out.go:177] 
+W1212 14:12:08.008400   10192 out.go:239] ❌  Exiting due to HOST_CONFIG_LOAD: Unable to load config: unmarshal: invalid character '\x00' looking for beginning of value
+I1212 14:12:08.009468   10192 out.go:177] 
+
+* 
